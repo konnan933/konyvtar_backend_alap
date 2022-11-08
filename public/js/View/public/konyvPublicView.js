@@ -3,7 +3,6 @@
 class publicKonyv {
     constructor(data, szuloElem) {
         this.data = data;
-        szuloElem.html("");
         szuloElem.append(`
     <div class="kartya columns-1 rounded-lg rounded-lg">
         <h2>${data.cim}</h2>
